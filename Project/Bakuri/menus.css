@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f9f8f3;
+    color: #2c1518;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Bakuri {
+    background-color: #340e17;
+    color: #ffffff;
+}
+
+header.Bakuri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+.Facacc {
+    font-size: 20px;
+}
+
+.skami {
+    display: flex;
+    gap: 28px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+.money {
+    background-color: #340e17;
+    color: #ffffff;
+    padding: 9px 18px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+}
+
+.magida {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 64px 40px 100px 40px;
+}
+
+.menu-title {
+    font-size: 52px;
+    font-weight: normal;
+    line-height: 1.1;
+    margin-bottom: 50px;
+}
+
+.box1 {
+    margin-bottom: 50px;
+}
+
+.menu-cat {
+    font-size: 22px;
+    font-weight: normal;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #d6d0c7;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.iphone {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.dish-name {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.dish-desc {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #5a4648;
+}
+
+footer.Bakuri {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.footer-link {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-logo {
+    font-size: 52px;
+    font-weight: normal;
+}
+
+.footer-copy {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    header.Bakuri {
+        flex-direction: column;
+        gap: 14px;
+        padding: 20px;
+    }
+
+    .magida {
+        padding: 40px 20px 70px 20px;
+    }
+
+    .menu-title {
+        font-size: 36px;
+        margin-bottom: 34px;
+    }
+
+    .box2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .iphone {
+        width: 100%;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer.Bakuri {
+        padding: 40px 20px;
+        gap: 45px;
+    }
+
+    .footer-logo {
+        font-size: 34px;
+    }
+}

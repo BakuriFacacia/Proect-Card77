@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f9f8f3;
+    color: #2c1518;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Bakuri {
+    background-color: #340e17;
+    color: #ffffff;
+}
+
+
+.skami {
+    display: flex;
+    gap: 24px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+.money {
+    background-color: #340e17;
+    color: #ffffff;
+    padding: 9px 18px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+}
+
+.magida {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 40px 90px 40px;
+}
+
+.help-title {
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+.box2 {
+    width: 45%;
+    background-color: #ffffff;
+    border: 1px solid #dfd9d0;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.iphone {
+    width: 52%;
+    background-color: #ffffff;
+    border: 1px solid #dfd9d0;
+    padding: 28px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #2c1518;
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field-label {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #4a3538;
+}
+
+.field-input {
+    padding: 10px;
+    border: 1px solid #c9c2b8;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.field-textarea {
+    padding: 10px;
+    border: 1px solid #c9c2b8;
+    font-family: Arial, sans-serif;}

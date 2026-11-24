@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f9f8f3;
+    color: #2c1518;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    background-color: #e4dfd7;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Bakuri {
+    background-color: #340e17;
+    color: #ffffff;
+}
+
+header.Bakuri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+.facacc {
+    font-size: 20px;
+}
+
+.skami {
+    display: flex;
+    gap: 28px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+.pepsi {
+    background-color: #340e17;
+    color: #ffffff;
+    padding: 9px 18px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+}
+
+.pepsi1 {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.pepsi1 .box2 {
+    width: 58%;
+    position: relative;
+}
+
+.hero-title {
+    position: absolute;
+    top: 32px;
+    left: 36px;
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 1.05;
+}
+
+.hero-main-img {
+    width: 100%;
+    height: 620px;
+}
+
+.pepsi1 .pepsi2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    margin-top: 150px;
+}
+
+.hero-side-img {
+    width: 245px;
+    height: 270px;
+}
+
+.hero-sub {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #3a2326;
+}
+
+.hero-btn {
+    padding: 11px 28px;
+    border: none;
+}
+
+.pepsi3 {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 40px 50px 40px;
+}
+
+.intro-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.intro-title {
+    width: 35%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.intro-text {
+    width: 65%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #3a2326;
+}
+
+.skami3 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.services-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.services-title {
+    font-size: 44px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+.services-sub {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #4a3538;
+}
+
+.services-btn {
+    padding: 11px 28px;
+    border: none;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.cards-grid .box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.card-img-box {
+    background-color: #efefec;
+    padding: 0 36px 36px 36px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 300px;
+}
+
+.card-img-1 {
+    width: 190px;
+    height: 190px;
+}
+
+.card-img-2 {
+    width: 190px;
+    height: 255px;
+}
+
+.card-img-3 {
+    width: 240px;
+    height: 165px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.card-text {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #4a3538;
+}
+
+.skami1 {
+    position: relative;
+    min-height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.quote-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.quote-box {
+    position: relative;
+    background-color: #cbe0e0;
+    padding: 55px 45px 35px 45px;
+    max-width: 440px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-title {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.quote-text {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.quote-author {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.quote-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.beyond-top {
+    max-width: 460px;
+    margin: 0 auto 65px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.beyond-img {
+    width: 240px;
+    height: 170px;
+}
+
+.beyond-title {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.beyond-text {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #4a3538;
+}
+
+.pepsi4 {
+    margin-bottom: 65px;
+}
+
+.wide-banner-img {
+    width: 100%;
+    height: 460px;
+}
+
+.skami2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+.bottom-left {
+    width: 52%;
+}
+
+.bottom-big-img {
+    width: 100%;
+    height: 500px;
+}
+
+.bottom-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.bottom-small-img {
+    width: 220px;
+    height: 150px;
+}
+
+.menu-link-btn {
+    background-color: #bab0ab;
+    padding: 10px 24px;
+    border: none;
+}
+
+.cta-box {
+    background-color: #cbe0e0;
+    text-align: center;
+    padding: 95px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cta-sub {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.cta-title {
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.cta-link {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+footer.Bakuri {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.footer-link {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-logo {
+    font-size: 52px;
+    font-weight: normal;
+}
+
+.footer-copy {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    header.Bakuri {
+        flex-direction: column;
+        gap: 14px;
+        padding: 20px;
+    }
+
+    .pepsi1 {
+        flex-direction: column;
+        padding: 0 0 40px 0;
+        gap: 24px;
+    }
+
+    .intro-box {
+        flex-direction: column;
+    }
+
+    .services-head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skami2 {
+        flex-direction: column;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pepsi1 .box2 {
+        width: 100%;
+    }
+
+    .pepsi1 .pepsi2 {
+        width: 100%;
+        margin-top: 10px;
+        padding: 0 20px;
+    }
+
+    .intro-title {
+        width: 100%;
+    }
+
+    .intro-text {
+        width: 100%;
+    }
+
+    .bottom-left {
+        width: 100%;
+    }
+
+    .bottom-right {
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 38px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .hero-main-img {
+        height: 380px;
+    }
+
+    .pepsi3 {
+        padding: 40px 20px;
+    }
+
+    .services-title {
+        font-size: 32px;
+    }
+
+    .cta-title {
+        font-size: 32px;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wide-banner-img {
+        height: 260px;
+    }
+
+    .bottom-big-img {
+        height: 320px;
+    }
+
+    footer.Bakuri {
+        padding: 40px 20px;
+        gap: 45px;
+    }
+
+    .footer-logo {
+        font-size: 34px;
+    }
+}
